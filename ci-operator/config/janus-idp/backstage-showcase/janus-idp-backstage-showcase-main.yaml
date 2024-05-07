@@ -30,7 +30,7 @@ tests:
   steps:
     test:
     - ref: janus-idp-backstage-showcase
-- as: e2e-tests-nightly
+- as: e2e-tests-nightly-test
   cron: 0 1 * * *
   steps:
     test:
